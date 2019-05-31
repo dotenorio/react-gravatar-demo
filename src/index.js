@@ -18,7 +18,7 @@ class EmailForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: 'dotenorio@gmail.com',
+      value: '',
       res: {
         HowTo: 'Insert your email above to see results!'
       }
