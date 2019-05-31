@@ -47,7 +47,7 @@ class EmailForm extends React.Component {
       }
     });
     try {
-      const request = await jsonp(`https://www.gravatar.com/${valueMd5}.json`, { timeout: 1000 })
+      const request = await jsonp(`https://www.gravatar.com/${valueMd5}.json`, { timeout: 3000 })
       const response = await request.json();
       this.handleRes(response.entry[0]);
     } catch (err) {
