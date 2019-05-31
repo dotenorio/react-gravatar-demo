@@ -74,7 +74,9 @@ class EmailForm extends React.Component {
 function Result(props) {
   return (
     <div className="result">
-      <img src={props.res.thumbnailUrl} alt={props.res.preferredUsername} className="thumbnailUrl" />
+      {props.res.thumbnailUrl &&
+        <img src={props.res.thumbnailUrl} alt={props.res.preferredUsername} className="thumbnailUrl" />
+      }
       <pre>
         {JSON.stringify(props.res, null, 2)}
       </pre>

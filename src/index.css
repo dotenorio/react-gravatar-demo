@@ -44,6 +44,8 @@ pre {
   padding: 15px;
   border-radius: 3px;
   box-shadow: 1px 1px 5px #000;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .thumbnailUrl {
@@ -52,4 +54,30 @@ pre {
   top: 105px;
   border: 1px solid #CCC;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 375px) {
+  .header h1 {
+    font-size: 100%;
+  }
+  form input[type=text] {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header h1,
+  form {
+    text-align: center;
+  }
+  .thumbnailUrl {
+    position: initial;
+    right: auto;
+    top: auto;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
 }
