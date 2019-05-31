@@ -61,7 +61,7 @@ class EmailForm extends React.Component {
         <form onSubmit={this.handleSubmit}>
           <label>
             Email:
-            <input type="text" value={this.state.value} onChange={this.handleChange} />
+            <input type="text" value={this.state.value} onChange={this.handleChange} placeholder="Your e-mail here.." />
           </label>
           <input type="submit" value="Enviar" />
         </form>
