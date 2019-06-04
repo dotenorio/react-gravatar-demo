@@ -18,9 +18,9 @@ body {
 .header ul {
   padding: 0px;
   margin: 0px;
-  background-color: #EDEDED;
   list-style: none;  
   align-self: center;
+  padding-top: 5px;
 }
 
 .header ul li {
@@ -30,7 +30,7 @@ body {
 .header ul li a {
   padding: 2px 10px;
   display: inline-block;
-  color: #000;
+  color: #106274;
   text-decoration: none;
 }
 
@@ -51,12 +51,20 @@ body {
     margin: 40px 15px;
   }
   .header h1 {
-    font-size: 100%;
+    font-size: 150%;
   }
 }
 
 @media only screen and (max-width: 768px) {
+  .header { 
+    display: block;
+  }
   .header h1 {
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .header ul {
     text-align: center;
   }
 }
