@@ -1,0 +1,7 @@
+a {
+  color: #444;
+}
+
+a:hover {
+  opacity: 0.6;
+}
