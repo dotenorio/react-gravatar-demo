@@ -45,10 +45,8 @@ class EmailForm extends Component {
   async handleSubmit(event) {
     event.preventDefault();
     const valueMd5 = md5(this.state.value);
-    this.setState({
-      res: {
-        status: 'Loading..'
-      }
+    this.handleRes({
+      status: 'Loading..'
     });
     try {
       const request = await jsonp(`https://www.gravatar.com/${valueMd5}.json`, { timeout: 10000 })
