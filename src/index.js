@@ -14,5 +14,5 @@ ReactDOM.render(
         <Route path='*' component={NotFound404} />
     </Switch>
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById('root') || document.createElement('div')
 );
