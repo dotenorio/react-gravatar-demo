@@ -45,7 +45,7 @@ class EmailForm extends Component {
   async handleSubmit(event) {
     event.preventDefault();
     const valueMd5 = md5(this.state.value);
-    this.handleRes({
+    this.setState({
       res: {
         status: 'Loading..'
       }
