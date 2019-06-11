@@ -79,9 +79,7 @@ function Gravatar () {
   return (
     <div>
       <Layout>
-        <div className="content">
-          <EmailForm />
-        </div>
+        <EmailForm />
       </Layout>
     </div>
   );
