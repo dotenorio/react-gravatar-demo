@@ -1,7 +1,7 @@
 import React from 'react'
-import Layout from "./Layout";
 import { NavLink } from "react-router-dom";
 
+import Layout from "../Layout/Layout";
 import './NotFound404.css';
 
 function NotFound404 () {

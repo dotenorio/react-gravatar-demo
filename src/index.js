@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import Gravatar from "./Gravatar";
-import About from "./About";
-import NotFound404 from "./NotFound404";
+import Gravatar from "./Gravatar/Gravatar";
+import About from "./About/About";
+import NotFound404 from "./NotFound404/NotFound404";
 
 ReactDOM.render(
   <BrowserRouter>

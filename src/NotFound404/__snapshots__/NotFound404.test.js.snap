@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound404 renders correctly 1`] = `
+<div>
+  <div>
+    <div
+      className="header"
+    >
+      <h1>
+        Oops!!
+      </h1>
+      <ul>
+        <li>
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+            title="Home Page"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            href="/about"
+            onClick={[Function]}
+            title="About Project"
+          >
+            About
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="content"
+    >
+      <p>
+        Page Not Found
+      </p>
+      <p>
+        :(
+      </p>
+      <p>
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+          title="back to Home Page"
+        >
+          back
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+`;

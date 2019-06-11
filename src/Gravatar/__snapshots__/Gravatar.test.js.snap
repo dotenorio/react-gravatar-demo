@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gravatar renders correctly 1`] = `
+<div>
+  <div>
+    <div
+      className="header"
+    >
+      <h1>
+        React Gravatar Demo
+      </h1>
+      <ul>
+        <li>
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+            title="Home Page"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            href="/about"
+            onClick={[Function]}
+            title="About Project"
+          >
+            About
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="content"
+    >
+      <div>
+        <form
+          onSubmit={[Function]}
+        >
+          <label>
+            Email:
+            <input
+              onChange={[Function]}
+              placeholder="Your e-mail here.."
+              type="text"
+              value=""
+            />
+          </label>
+          <input
+            type="submit"
+            value="Enviar"
+          />
+        </form>
+        <div
+          className="result"
+        >
+          <pre>
+            {
+  "HowTo": "Insert your email above to see results!"
+}
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

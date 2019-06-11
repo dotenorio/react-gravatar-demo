@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import md5 from 'md5';
 import jsonp from 'universal-jsonp';
 
-import Layout from "./Layout";
+import Layout from "../Layout/Layout";
 import "./Gravatar.css";
 
 function Result(props) {
@@ -45,7 +45,7 @@ class EmailForm extends Component {
   async handleSubmit(event) {
     event.preventDefault();
     const valueMd5 = md5(this.state.value);
-    this.setState({
+    this.handleRes({
       res: {
         status: 'Loading..'
       }
